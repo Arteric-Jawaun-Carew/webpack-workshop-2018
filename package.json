@@ -11,6 +11,7 @@
     "dev": "npm run webpack-dev-server -- --env.mode development --hot",
     "prod:typescript": "npm run prod -- --env.presets typescript",
     "prod:debug": "npm run debug -- --env.mode production",
+    "prod:analyze": "npm run prod -- --env.presets analyze",
     "dev:debug": "npm run debug -- --env.mode development"
   },
   "repository": {
